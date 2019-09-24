@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+}
+
+p {
+  color: white;
+  font-family: fantasy;
+  word-wrap: break-word;
+
+}
+h1 {
+  font-size: 6rem;
+}
+
+h6 {
+  font-size: 2rem;
+  margin-top: -1.6rem;
+}
+
+.narrative {
+  display: flex;
+  width: 150px;
+  margin-top: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+   body {
+    background-size: cover;
+  }
+
+   h1{
+    font-size: 5rem;
+
+  }
+
+   h6{
+    font-size: 1.7rem;
+  }
+
+  .narrative .container{
+    flex-direction: column;
+    margin-left: 0px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  h1{
+    font-size: 6rem;
+  }
+
+   h6{
+    font-size: 1.4rem;
+  }
+
+
+  .narrative .container{
+    flex-direction: column;
+  }
+
+
+
+}
