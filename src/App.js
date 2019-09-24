@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import background from './background.jpeg'
+import Register from './components/register';
+import logo from './2020.png';
+import background from './background.jpeg';
 
 import './App.css';
 
@@ -8,9 +9,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-          <h1> 2020 </h1>
+        <h2> The Roaring 20s </h2>
+         <img src= {logo}/>
           <h6> New Year's Eve Gala! </h6>
-           <div className="narrative">
+         <div className="narrative">
               <p>
                 Mirando hacia una nueva decada,
                 terminemos el aNo 2019 de una nueva manera!
@@ -20,9 +22,9 @@ function App() {
 
                  Para reservar porfavor de reservar aqui:
               </p>
-              <div className="register">
-                <a href="#"> Vamono! </a>
-              </div>
+           </div>
+          <div className="register">
+           <Register />
            </div>
       </div>
     </div>
