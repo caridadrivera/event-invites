@@ -15,12 +15,12 @@ function App() {
          <div className="narrative">
               <p>
                 Mirando hacia una nueva decada,
-                terminemos el aNo 2019 de una nueva manera!
+                terminemos el a&#xF1;o 2019 de una nueva manera!
 
-                AcompaNenos este 31 de Diciembre a despedir el 2019
+                Acompa&#xF1;enos este 31 de Diciembre a despedir el 2019
                  con familia y amados!
 
-                 Para haga click aqui:
+                 Para reservar haga click aqui:
               </p>
            </div>
           <div className="register">
