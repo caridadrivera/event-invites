@@ -20,7 +20,7 @@ function App() {
                 AcompaNenos este 31 de Diciembre a despedir el 2019
                  con familia y amados!
 
-                 Para reservar porfavor de reservar aqui:
+                 Para haga click aqui:
               </p>
            </div>
           <div className="register">

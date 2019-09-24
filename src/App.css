@@ -22,15 +22,21 @@
 button{
   text-align: center;
   color: white;
-  border-radius: 20px;
+  margin-top: 1rem;
+  border-radius: 10px;
   background-color: transparent;
   display: flex;
-
   cursor: pointer;
 }
 
 button h1{
-  font-size: 2rem;
+  font-size: 1rem;
+  margin-left: 6px;
+  margin-right: 5px;
+  margin-top: 6px;
+  text-align: center;
+  font-family: fantasy;
+
 }
 
 
@@ -53,7 +59,7 @@ h2{
 
 h6 {
   font-size: 2rem;
-  margin-top: -1.2rem;
+  margin-top: -.5rem;
 }
 
 
@@ -83,7 +89,6 @@ h6 {
   .narrative .container{
     flex-direction: column;
     margin-left: 0px;
-
   }
 
 }

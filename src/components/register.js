@@ -7,7 +7,7 @@ function Register() {
 
     return (
       <button>
-       <h1> Vamono!</h1>
+       <h1> Tickets </h1>
       </button>
     )
 
